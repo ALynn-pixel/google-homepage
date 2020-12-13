@@ -1,0 +1,159 @@
+#body {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: auto;
+}
+
+body {
+   font-family: 'Bebas Neue', cursive;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 12px;
+}
+
+#header-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 100px
+}
+
+#box-1 {
+  margin: 5px;
+  padding: 5px;
+}
+
+#box-2 {
+  flex-grow: 2;
+  margin: 5px;  
+  padding: 5px;
+}
+
+#box-3 {
+  margin: 5px;
+  padding: 5px;
+}
+
+#box-4 {
+  margin: 5px;
+  padding: 5px;
+}
+
+#box-5 {
+    width: 40px;
+    height: 40px;
+    background-image: url('./images/Menu.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+#box-6 {
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: #3385ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+#google-logo {
+  margin: 0 auto;
+}
+
+#search-part {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+}
+
+input {
+    background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 1px solid #E0E3E5;
+    text-indent: 20px;
+    border-radius: 40px;
+    width: 400px;
+    height: 25px;
+}
+
+.active {
+  background: #E0E3E5;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #404041;
+  height: 15px;
+}
+
+
+.lucky {
+  background: #E0E3E5;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #404041;
+  height: 15px;
+}
+
+#search-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 330px;
+}
+
+#footer-container {
+  border: 1px #DCDCDF;
+  background: #E0E3E5;
+  height: 250px;
+  width: auto;
+  color: #404041;
+  display: flex;
+  flex-direction: row;
+  margin-top: 160px;
+}
+
+#foot-1 {
+  margin: 5px;
+  padding: 5px;
+}
+
+#foot-2 {
+  margin: 5px;
+  padding: 5px;
+}
+
+#foot-3 {
+  flex-grow: 2;
+  margin: 5px;
+  padding: 5px;
+}
+
+#foot-4 {
+  margin: 5px;
+  padding: 5px;
+}
+
+#foot-5 {
+  margin: 5px;
+  padding: 5px;
+}
+
+#foot-6 {
+  margin: 5px;
+  padding: 5px;  
+}
+
+
